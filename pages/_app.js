@@ -3,6 +3,7 @@
 import React from 'react';
 
 import { getApps, initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
 
 import 'styles/globals.scss';
 
@@ -17,6 +18,10 @@ const Demotaverse = ({ Component, pageProps }) => {
       appId: process.env.appId,
       measurementId: process.env.measurementId,
     });
+
+    if (typeof window !== 'undefined') {
+      getAnalytics();
+    }
   }
 
   return <Component {...pageProps} />;
