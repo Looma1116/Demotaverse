@@ -1,0 +1,15 @@
+.input {
+  width: 100%;
+  height: 52px;
+  border-radius: 2px;
+  padding: 0px 14px;
+  font-size: 14px;
+  border: solid 1px #ccc;
+  transition: 0.3s;
+  &:focus {
+    border: solid 1px black;
+  }
+  &::placeholder {
+    color: #aaa;
+  }
+}

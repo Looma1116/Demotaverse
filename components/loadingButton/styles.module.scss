@@ -1,0 +1,21 @@
+@import '../../styles/theme.scss';
+
+.container {
+  cursor: pointer;
+  width: 100%;
+  height: 52px;
+  color: white;
+  background-color: $color-primary;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  font-weight: bold;
+  border-radius: 2px;
+  transition: 0.3s;
+  .space {
+    width: 24px;
+    height: 24px;
+  }
+}

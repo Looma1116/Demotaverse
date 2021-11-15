@@ -1,0 +1,146 @@
+@import '../../styles/theme.scss';
+
+.chatting-wrapper {
+  width: 360px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatting-wrapper2 {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 360px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vote-card {
+  margin-bottom: 30px;
+  background-color: white;
+  width: 320px;
+  padding: 20px 16px;
+  box-shadow: 0px 0px 30px 0px #eee;
+  border-radius: 4px;
+  .vote-name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: $color-primary;
+    margin-bottom: 12px;
+  }
+  .vote-content {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+.vote-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  button {
+    margin-top: 12px;
+    background-color: #EBEDF0;
+    color: #68717D;
+    height: 40px;
+    font-weight: bold;
+  }
+}
+
+.vote-complete {
+  margin-top: 32px;
+  font-size: 12px;
+  color: red;
+  text-decoration: underline;
+}
+
+.vote-result-col {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+
+  .label-row {
+    margin-bottom: 12px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .icon-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    img {
+      width: 14px;
+      height: 14px;
+      margin-right: 4px;
+    }
+  }
+  .vote-max {
+    height: 12px;
+    background-color: $color-primary;
+    border-radius: 4px;
+    transition: 1s;
+  }
+  .vote-normal {
+    height: 12px;
+    background-color: $color-primary;
+    border-radius: 4px;
+    opacity: 0.3;
+    transition: 1s;
+  }
+}
+
+.chatting-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.chatting-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  line-height: 1.4;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  div {
+    margin-bottom: 12px;
+  }
+}
+
+.chatting-input {
+  width: 320px;
+  height: 80px;
+  background-color: white;
+  border: solid 1px #eee;
+  resize: none;
+  transition: 0.3s;
+  padding: 14px;
+  font-size: 14px;
+  &:hover {
+    border: solid 1px black;
+  }
+  &::placeholder {
+    color: #aaa;
+  }
+}
+
+.chatting-btn {
+  margin-top: 12px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: $color-primary;
+}

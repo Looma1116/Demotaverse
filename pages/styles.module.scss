@@ -1,0 +1,149 @@
+@import '../styles/theme.scss';
+
+.map-overlay-color {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.map-overlay-image {
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.map-overlay-color-detail {
+  z-index: -2;
+  min-width: 100%;
+  opacity: 0.5;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.map-overlay-image-detail {
+  z-index: -2;
+  min-width: 100%;
+  opacity: 0.5;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.group-section {
+  position: relative;
+}
+
+.character-wrapper {
+  position: absolute;
+  .img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .current {
+      z-index: 3;
+      height: 12px;
+    }
+    .character {
+      z-index: 4;
+    }
+    .check {
+      position: absolute;
+      bottom: -4px;
+      z-index: -1;
+      width: 36px;
+      height: 16px;
+      opacity: 0.6;
+      background-color: $color-primary;
+      border-radius: 2px;
+    }
+    .emotion {
+      z-index: 5;
+      position: absolute;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.checkuser-nickname {
+  z-index: 10;
+  position: fixed;
+  left: calc(50vw - 120px);
+  top: 36px;
+  background-color: $color-primary;
+  height: 48px;
+  padding: 0px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.emotion-section {
+  box-shadow: 0px 0px 30px 0px #eee;
+  z-index: 2;
+  height: 48px;
+  background-color: black;
+  position: fixed;
+  left: calc(50vw - 196px);
+  bottom: 24px;
+  padding: 4px 16px;
+  border-radius: 32px;
+  button {
+    margin: 4px; 
+  }
+  img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.move-direction-wrapper {
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px #ccc;
+  z-index: 2;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  width: 400px;
+  left: calc(50vw - 20px);
+  top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  button {
+    background-color: $color-primary;
+    color: white;
+    margin-left: 12px;
+    width: 80px;
+    height: 52px;
+    font-weight: bold;
+    border-radius: 2px;
+  }
+}

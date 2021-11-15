@@ -1,0 +1,21 @@
+module.exports = {
+  env: {
+    apiKey: 'AIzaSyAyvjTW47HOdZIf062fe0FHde-HsI1cCe8',
+    authDomain: 'demotaverse.firebaseapp.com',
+    projectId: 'demotaverse',
+    storageBucket: 'demotaverse.appspot.com',
+    messagingSenderId: '273187609636',
+    appId: '1:273187609636:web:f9d61cbe470875d3b1ccb1',
+    measurementId: 'G-Q277WM864W',
+    type: 'service_account',
+    project_id: 'demotaverse',
+    private_key_id: '54f660d52c988ef0bd4dea3be874179a0d650659',
+    private_key: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDewNlX+fTpFyMC\nhV+gAZrI05k7emFqGVMi9+AUEJ40QAGOkVBETkXgj0ijYSzkQW0W/yvbQtA1l3s2\nZU2N5M4CuOjWcznSDn0bj2Ao/wB7GpMPyP37/lSWOgPZkARJQyfjAMr0slQxCo6R\nSKskTNwSdAfZklqnfX0pRYdCJjU5CluNbTVbcqdCHz3wrnzAiAVC6sThj+MPEswz\n6P9WOsRzUoHpaaF1D17viv+bviNgb+HsVI8A4JiwN45iKkB/zE2dK6NQYmB5sgBR\nT9/B+3XfzjU3fIKxuGgHHWiYM/DH5ekFKCmws5AhO5M0J0zyVIcTy0zL/76FN5sB\nHI9lgzG1AgMBAAECggEAKIvXdBNgUF5hBcgzvgsUuuoDSieOXFL0RljyzYwx0+Zz\nshkC0JAj2YqTSQP6+ShsnENB3yUkA6FJcP8TFRk5I5c3cLOkKndvL+lS8ltqYb4W\nV0j5bFlg2cCBK2Sy1wgVllUyXESqnQukJE9jMZYY9/XtaN3iSPsHYZARnQmZ5gIE\nxhGuNn5PzVJyPUJxVGUdExlam/0xOpu5higyqERIuZl/r5q7tJlUOZlXzr3zux7d\nJksBTleEKxDs7bWdUogYCEhV5Rr9cpl8CoEYI/yGM5dFzoABSpDH+URrTX28U6IV\nxmKjDoER19vzX4KTK4nqtWYuht3C3znjkULYhYygQQKBgQD+33aaUN4VCCsePJ4x\np+Nkv94Fq5shwLqUchG14ctASu29NFzBfa3LADTiSW/a+a69M/6SDbuQrO580CIm\nrDhmWPNzknhYh1PgcJVBPKKwTGYG7SAR+r7QRoxg0SuDrsz9iPSF/vo71R4JOgLE\n1FuP4qncjmPS6dkK35J3o3yEQQKBgQDfvQYT1yrZJfl6DOHQkx7949G2NNQNDCnU\nWNEopLoW5F3PLAwD42w5yfkrJSuOVQbOm+izno8fjXKEufvNv4Z6l088Zil0Wsr0\nhhiCI3Q/QY9C7HORWSrBqCtBaOt90A4kxHxbfrCPk4soA4LT6+0gC3GwbRJ0QLkD\n75ftp+rAdQKBgCOLnsrexFpCjWDmK1nZhEkkyR4ZVMVcT6ksT3QCTYpl6MoeZ2FE\n2dwZ50Y337W2ZLxWaAaOi74doBUgIeMq2aLMfQd9QfN2zCfdC7PRdQ8JWKFWqMZZ\nJgt+C03lXiA7XLNvSkr1yIhXrJy0znYM98gVYIM2CI39txthGtg8oL0BAoGBALoq\nKxtpJsMGYP4YJ/EH6XqyDHYCoQq2OzvwJyEdZ6XSoOfYK6s0mYHAN+6ZgBNvVjml\n6stCPK6xYD9mDUoWegwZSJnmG8owHb22sj/exkQ4Bb9WxZaEThpTFqLXbVMDQjF/\nuEXdNYZR6zEBMuOo5GaMfy2gpAFNNWU7//uEg8VdAoGAT3vKbSJwiHV2soJeDTUz\nhaiIwu8swjvNIRxCJyWCU6OI8HiAomdGeW6lY3WB8ATcuHzc21J+pmvPrPVfL7Fn\no9vn+fx0icNGJ0E4pByR2sTIgDj1K77GSBcmQ/5l40HsjHxNOPqHx3XJzCyv1Emp\n4eRqrVLZAy2AYPC2D6QyBwU=\n-----END PRIVATE KEY-----\n',
+    client_email: 'firebase-adminsdk-fd28b@demotaverse.iam.gserviceaccount.com',
+    client_id: '113488862346929435861',
+    auth_uri: 'https://accounts.google.com/o/oauth2/auth',
+    token_uri: 'https://oauth2.googleapis.com/token',
+    auth_provider_x509_cert_url: 'https://www.googleapis.com/oauth2/v1/certs',
+    client_x509_cert_url: 'https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fd28b%40demotaverse.iam.gserviceaccount.com',
+  },
+};

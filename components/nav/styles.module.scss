@@ -1,0 +1,187 @@
+@import '../../styles/theme.scss';
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 40px;
+  overflow-y: scroll;
+}
+
+.nav-container2 {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.nav-label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.dropdown-wrapper {
+  margin-bottom: 48px;
+}
+
+.rank-row {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .icon-row-t2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    img {
+      width: 16px;
+      height: 16px;
+      margin-right: 4px;
+    }
+  }
+}
+
+.arrow-left {
+  width: 32px;
+  height: 32px;
+}
+
+.arrow-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .label {
+    margin-left: 12px;
+    font-size: 20px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .close {
+    font-size: 14px;
+  }
+  margin-bottom: 40px;
+}
+
+.opener {
+  padding: 12px 24px;
+  font-weight: bold;
+  color: white;
+  z-index: 10;
+  position: fixed;
+  left: 0px;
+  top: 32px;
+  background-color: $color-primary;
+}
+
+.btn-wrapper-01 {
+  position: absolute;
+  bottom: 20px;
+  background-color: $color-primary;
+  width: 320px;
+  height: 52px;
+  color: white;
+  font-weight: bold;
+}
+
+.groupName {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.icon-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  img {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+  }
+}
+
+.groupSlogun {
+  color: $color-primary;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.groupIntro {
+  color: #444;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.groupPageURL {
+  margin-top: 16px;
+  display: flex;
+  text-decoration: underline;
+}
+
+.group-nav-btn-section {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  button.t3 {
+    flex: 1;
+    background-color: $color-primary;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding: 13px;
+  }
+  button.t4 {
+    flex: 1;
+    background-color: #EBEDF0;
+    color: #68717D;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding: 13px;
+  }
+}
+
+.btn-row {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+
+  button.t1 {
+    margin-right: 12px;
+    flex: 1;
+    background-color: $color-primary;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+  button.t2 {
+    flex: 1;
+    background-color: #EBEDF0;
+    color: #68717D;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
